@@ -8,7 +8,7 @@
 // @run-at document-start
 // @noframes
 // @license GPLv3
-// @downloadURL https://raw.githubusercontent.com/green1052/arcalive-ban-time/master/FuckYouNamuwiki.user.js
+// @downloadURL https://raw.githubusercontent.com/green1052/FuckYouNamuwiki/master/FuckYouNamuwiki.user.js
 // @homepageURL https://github.com/green1052/FuckYouNamuwiki
 // @grant unsafeWindow
 // ==/UserScript==
