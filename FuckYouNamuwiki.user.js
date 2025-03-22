@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name FuckYouNamuwiki
-// @version 1.0.0
+// @version 1.0.1
 // @author green1052
 // @description 광고 ㅗ
 // @match https://namu.wiki/*
@@ -8,7 +8,7 @@
 // @run-at document-start
 // @noframes
 // @license GPLv3
-// @downloadURL https://raw.githubusercontent.com/green1052/FuckYouNamuwiki/master/FuckYouNamuwiki.user.js
+// @downloadURL https://raw.githubusercontent.com/green1052/arcalive-ban-time/master/FuckYouNamuwiki.user.js
 // @homepageURL https://github.com/green1052/FuckYouNamuwiki
 // @grant unsafeWindow
 // ==/UserScript==
@@ -17,7 +17,7 @@ function removeAd() {
     const result = [];
 
     for (const element of document.querySelectorAll(`span:has(> img[src^="data:image/svg+xml;"] + img[src^="//i.namu.wiki/i/"])`)) {
-        if (Array.from(element.attributes).filter((attr) => attr.name.startsWith("data-v-")).length === 2) result.push(element);
+        if (Array.from(element.attributes).filter((attr) => attr.name.startsWith("data-v-")).length >= 1) result.push(element);
     }
 
     for (const element of result) {
