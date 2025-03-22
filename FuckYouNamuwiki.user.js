@@ -1,10 +1,16 @@
 // ==UserScript==
-// @name         FuckYouNamuwiki
-// @version      1.0.0
-// @author       green1052
-// @match        https://namu.wiki/*
-// @grant        unsafeWindow
-// @run-at       document-start
+// @name FuckYouNamuwiki
+// @version 1.0.0
+// @author green1052
+// @description 광고 ㅗ
+// @match https://namu.wiki/*
+// @namespace FuckYouNamuwiki
+// @run-at document-start
+// @noframes
+// @license GPLv3
+// @downloadURL https://raw.githubusercontent.com/green1052/arcalive-ban-time/master/FuckYouNamuwiki.user.js
+// @homepageURL https://github.com/green1052/FuckYouNamuwiki
+// @grant unsafeWindow
 // ==/UserScript==
 
 function removeAd() {
